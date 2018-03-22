@@ -11,6 +11,7 @@ namespace laba3
         static void Main(string[] args)
         {
 
+
             int a;
             int b;
             Console.WriteLine("menu");
@@ -19,7 +20,15 @@ namespace laba3
             Console.WriteLine("vvedite simvol: \n3: +\n4: -\n5: *\n6: /");
 
             ConsoleKeyInfo key = Console.ReadKey();
-            char ch = key.KeyChar;
+            char c = key.KeyChar;
+
+
+            if (c == 1)
+            {
+                Console.Write("vvod a: ");
+                a = int.Parse(Console.ReadLine());
+            }
+            
 
         }
     }
