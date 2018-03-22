@@ -10,6 +10,8 @@ namespace laba3
     {
         static void Main(string[] args)
         {
+            int a;
+            int b;
             Console.WriteLine("menu");
             Console.WriteLine("nazhmite 1 i vvedite a");
             Console.WriteLine("nazhmite 2 i vvedite b");
