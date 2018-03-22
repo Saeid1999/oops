@@ -10,7 +10,10 @@ namespace laba3
     {
         static void Main(string[] args)
         {
-            
+            if (c == 3)
+            {
+                Console.WriteLine(a + b);
+            }
                         
         }
     }
