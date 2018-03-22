@@ -10,11 +10,17 @@ namespace laba3
     {
         static void Main(string[] args)
         {
-            if (c == 6)
-            {
-                Console.WriteLine(a * b);
-            }
-            Console.ReadKey();        
+
+            int a;
+            int b;
+            Console.WriteLine("menu");
+            Console.WriteLine("nazhmite 1 i vvedite a");
+            Console.WriteLine("nazhmite 2 i vvedite b");
+            Console.WriteLine("vvedite simvol: \n3: +\n4: -\n5: *\n6: /");
+
+            ConsoleKeyInfo key = Console.ReadKey();
+            char ch = key.KeyChar;
+
         }
     }
 }
