@@ -12,6 +12,7 @@ namespace laba3
         {
 
 
+
             int a;
             int b;
             Console.WriteLine("menu");
@@ -24,9 +25,12 @@ namespace laba3
 
 
             if (c == 1)
+
+            if (c == 2)
+
             {
-                Console.Write("vvod a: ");
-                a = int.Parse(Console.ReadLine());
+                Console.Write("vvod b: ");
+                b = int.Parse(Console.ReadLine());
             }
             
 
