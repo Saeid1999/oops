@@ -10,11 +10,12 @@ namespace laba3
     {
         static void Main(string[] args)
         {
-            if (c == 6)
+            if (c == 1)
             {
-                Console.WriteLine(a * b);
+                Console.Write("vvod a: ");
+                a = int.Parse(Console.ReadLine());
             }
-            Console.ReadKey();        
+            
         }
     }
 }
