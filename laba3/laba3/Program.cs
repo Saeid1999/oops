@@ -10,11 +10,11 @@ namespace laba3
     {
         static void Main(string[] args)
         {
-            if (c == 5)
+            if (c == 6)
             {
-                Console.WriteLine(a / b);
+                Console.WriteLine(a * b);
             }
-                        
+            Console.ReadKey();        
         }
     }
 }
