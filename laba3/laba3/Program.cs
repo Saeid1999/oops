@@ -28,7 +28,8 @@ namespace laba3
                 Console.Write("vvod a: ");
                 a = int.Parse(Console.ReadLine());
             }
-            
+
+
 
         }
     }
