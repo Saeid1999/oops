@@ -10,6 +10,8 @@ namespace laba3
     {
         static void Main(string[] args)
         {
+            int a = 0;
+            int b = 0;
             Console.WriteLine("menu");
             Console.WriteLine("nazhmite 1 i vvedite a");
             Console.WriteLine("nazhmite 2 i vvedite b");
@@ -17,6 +19,7 @@ namespace laba3
 
             ConsoleKeyInfo key = Console.ReadKey();
             char ch = key.KeyChar;
+                        
         }
     }
 }
