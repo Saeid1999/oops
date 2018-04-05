@@ -11,28 +11,9 @@ namespace laba3
         static void Main(string[] args)
         {
 
-
-            int a;
-            int b;
-            Console.WriteLine("menu");
-            Console.WriteLine("nazhmite 1 i vvedite a");
-            Console.WriteLine("nazhmite 2 i vvedite b");
-            Console.WriteLine("vvedite simvol: \n3: +\n4: -\n5: *\n6: /");
-
-            ConsoleKeyInfo key = Console.ReadKey();
-            char c = key.KeyChar;
-
-
-            if (c == 1)
+            if (c == 3)
             {
-                Console.Write("vvod a: ");
-                a = int.Parse(Console.ReadLine());
-            }
-
-            if (c == 2)
-            {
-                Console.Write("vvod b: ");
-                b = int.Parse(Console.ReadLine());
+                Console.WriteLine(a - b);
             }
 
 
