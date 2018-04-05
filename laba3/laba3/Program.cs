@@ -17,8 +17,13 @@ namespace laba3
             Console.WriteLine("nazhmite 2 i vvedite b");
             Console.WriteLine("vvedite simvol: \n3: +\n4: -\n5: *\n6: /");
 
-            ConsoleKeyInfo key = Console.ReadKey();
+           
             char ch = key.KeyChar;
+            if (c == 4)
+            {
+                Console.WriteLine(a - b);
+            }
+               ConsoleKeyInfo key = Console.ReadKey();          
         }
     }
 }
