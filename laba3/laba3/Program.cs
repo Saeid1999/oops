@@ -20,16 +20,16 @@ namespace laba3
             Console.WriteLine("vvedite simvol: \n3: +\n4: -\n5: *\n6: /");
 
             ConsoleKeyInfo key = Console.ReadKey();
-            char ch = key.KeyChar;
+            char c = key.KeyChar;
 
 
-            if (ch == 1)
+            if (c == 1)
             {
                 Console.Write("vvod a: ");
                 a = int.Parse(Console.ReadLine());
             }
 
-            if (ch == 2)
+            if (c == 2)
             {
                 Console.Write("vvod b: ");
                 b = int.Parse(Console.ReadLine());
