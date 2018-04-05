@@ -27,7 +27,10 @@ namespace laba3
             {
                 Console.WriteLine(a / b);
             }
-            ConsoleKeyInfo key = Console.ReadKey();          
+            if (c == 6)
+            {
+                Console.WriteLine(a * b);
+            }
         }
     }
 }
